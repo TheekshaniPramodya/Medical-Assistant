@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Assistant Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome, {{ user_name }}</h1>
+        <h2>Dashboard</h2>
+
+        <!-- Appointment Form -->
+        <form id="appointmentForm">
+            <input type="text" id="patientName" placeholder="Patient Name" required>
+            <input type="date" id="appointmentDate" required>
+            <input type="time" id="appointmentTime" required>
+            <button type="submit">Add Appointment</button>
+        </form>
+
+        <!-- Appointment List -->
+        <h2>Upcoming Appointments</h2>
+        <ul id="appointmentsList">
+            {% for appointment in appointments %}
+                <li>{{ appointment.patient_name }} - {{ appointment.date }} at {{ appointment.time }}</li>
+            {% endfor %}
+        </ul>
+
+        <!-- Logout Button -->
+        <button id="logoutBtn">Logout</button>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

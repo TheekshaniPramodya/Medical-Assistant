@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Appointment List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Logout Button */
+#logoutBtn {
+    background-color: #dc3545;
+}
+
+#logoutBtn:hover {
+    background-color: #c82333;
+}
