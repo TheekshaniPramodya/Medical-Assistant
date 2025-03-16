@@ -1,6 +1,6 @@
 # 🏥 Medical Assistant Web Application
 
-![Medical-Assistant](https://i.ibb.co/kgqvBJhk/mediass.png)
+![Medical-Assistant](https://i.ibb.co/FLgFXXTd/memo.png)
 
 
 A **Flask & React-based** medical assistant web application designed to help users manage appointments, store medical records, and provide AI-based health suggestions.
