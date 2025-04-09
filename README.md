@@ -26,7 +26,7 @@ medical-assistant/ │── backend/ # Flask backend │ ├── api/ # API r
 ### 🔹 Backend (Flask)
 **Clone the repository**  
    ```sh
-   git clone https://github.com/yourusername/medical-assistant.git
+   git clone https://github.com/TheekshaniPramodya/medical-assistant.git
    cd medical-assistant/backend
 
 
